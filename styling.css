@@ -92,3 +92,10 @@ footer{
         width:10%;
     }
 }
+button{
+    padding: 20px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 45%;
+    margin-right: 40%;
+}
