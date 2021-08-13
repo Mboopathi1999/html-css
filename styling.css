@@ -1,0 +1,94 @@
+#nav{
+    list-style-type: none;
+    background-color:rgb(160, 154, 154);
+    color: rgb(246, 255, 246);
+    display: block;
+    border-radius: 4px;
+    width: auto;
+    position: sticky;
+    top:0px;
+    margin: 0px;
+    height: 40px;
+}
+#nav img{
+    height:40px;
+    width:40px;
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    float: left;
+}
+#nav a {
+    text-decoration: none;
+    color: white;
+    vertical-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+    margin-top: 11px;
+  }
+#nav a:hover{
+background-color:white;
+color: black;
+border-radius: 5px;
+}
+#form{
+    border-radius: 5px;
+    margin: 0 auto; 
+    height: 200px;
+    width:500px;
+    margin-top: 50px;
+    background-color: rgb(99, 199, 99);
+}
+#form form {
+    margin: 0 auto; 
+    width:250px;
+    padding-top: 20px;
+}
+#form form table tr {
+    padding: 40px;
+}
+#container{
+    margin-left: 100px;
+}
+.row1{
+    display:inline;
+    margin: 30px;
+}
+.row2{
+    display:inline;
+    margin: 30px;
+}
+.con{
+    display: inline;
+    margin: 50px;
+    padding: 20px;
+}
+#workflow{
+    display: inline;
+}
+.workflow{
+    display: inline;
+}
+footer{
+    background-color:dodgerblue;
+}
+#footer{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+@media screen and (max-width:768px) {
+    .con{
+        width:100%;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1200px) {
+    .con{
+        width:50%;
+    }
+}
+@media screen and (min-width:768px) {
+    .con{
+        width:10%;
+    }
+}
